@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Moulpali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+
+.moulpali-font{
+    font-family: "Moulpali", sans-serif;
+}
+.moul-font{
+    font-family: "Moul", serif;
+}
+.siemreap-font{
+    font-family: "Siemreap", sans-serif;
+}
+/* Hero style */
+.hero{
+   height: 100vh !important;
+}
+/* Drop down */
+.list-sign{
+    width: 90px;
+    display: none;
+    position: absolute;
+}
+.access:hover .list-sign{
+    display: block;
+}
+/* Offcanvas */
+@media (max-width: 576px){
+    .offcanvas{
+        width: 80% !important;
+    }
+}
+/* Top destination */
+.top-destination{
+    background-image: url(https://i.pinimg.com/originals/ca/db/f0/cadbf02093dd8e7b4c9e74107ba7b27a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter:brightness(104%);
+}
+.blur{
+    height: 40px;
+    background-color: white;
+    top: -20px;
+    filter: blur(8px);
+}
+.line-height{
+    line-height: 30px !important;
+}
+/* Scroll */
+@media (min-width:992px) {
+    scroll-card{
+        overflow-x: hidden !important;
+    }
+}
+.image-card{
+    height: 55vh;
+}
+.brigthness{
+    filter: brightness(75%);
+}
+.transition{
+    transition: 0.3s ease-in-out;
+}
+.hover-card:hover{
+    box-shadow: 0 0 15px grey !important;
+    transform: scale(1.1); 
+}
+@media (max-width:1280px) {
+    scroll-card{
+        height: 40vh;
+    }
+}
+/* Choose us style */
+
+
+/* Contact us */
+input::placeholder{
+    color: dark  !important;
+}
